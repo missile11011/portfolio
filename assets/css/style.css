@@ -1,0 +1,21 @@
+/* * {
+    border: 1px solid red; 
+} */
+#hero1 {
+    animation-name: animation1;
+    animation-duration: 5s;
+}
+@keyframes animation1 {
+    0%   {color:white}
+    50% {color:transparent}
+    100% {color:transparent}
+}
+#hero2 {
+    animation-name: animation2;
+    animation-duration: 5s;
+}
+@keyframes animation2 {
+    0%   {color:transparent}
+    50%   {color:transparent}
+    100% {color:white;}
+}
