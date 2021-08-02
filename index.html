@@ -12,19 +12,18 @@
 
 <body>
     <section class="">
-
-
-        <nav class="navbar bg-transparent navbar-expand-lg position-absolute top-0 container-fluid">
+        
+        <nav class="navbar bg-transparent navbar-expand-lg fixed-top">
             <h1 class="navbar-brand">Page</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler btn btn-dark p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav justify-content-end">
-                    <li class="nav-item">
+            <div class="collapse navbar-collapse" >
+                <ul class="navbar-nav ms-auto">
+                    <li class="">
                         <a class=" p-3 mb-2 text-white text-decoration-none">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="">
                         <a class=" p-3 mb-2 text-white text-decoration-none">Work</a>
                     </li>
                     <li>
@@ -36,8 +35,23 @@
                 </ul>
             </div>
         </nav>
+        <div class="collapse navbar-collapse fs-1 bg-light text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="">
+                    <a class=" p-5 mb-2 text-dark text-decoration-none">Home</a>
+                </li>
+                <li class="">
+                    <a class=" p-5 mb-2 text-dark text-decoration-none">Work</a>
+                </li>
+                <li>
+                    <a class=" p-5 mb-2 text-dark text-decoration-none">About</a>
+                </li>
+                <li>
+                    <a class=" p-5 mb-2 text-dark text-decoration-none">Contact</a>
+                </li>
+            </ul>
+        </div>
         <img class="img-fluid vh-100 vw-100" src="./assets/images/AdobeStock_190318318.jpeg">
-
         <h1 id="hero1" class="text-center inline-flex position-absolute top-50 start-50">
             Hello I'm <br> Misael Reyes
         </h1>
