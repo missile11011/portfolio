@@ -13,19 +13,25 @@ li {
 }
 #hero1 {
     animation-name: animation1;
-    animation-duration: 5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 @keyframes animation1 {
     0%   {color:white}
-    50% {color:transparent}
+    40% {color:white}
+    50% {color: transparent;}
     100% {color:transparent}
 }
 #hero2 {
     animation-name: animation2;
-    animation-duration: 5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 @keyframes animation2 {
     0%   {color:transparent}
     50%   {color:transparent}
+    60% {color: white;}
     100% {color:white;}
 }
