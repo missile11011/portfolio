@@ -8,7 +8,9 @@
 #portrait {
     max-width: 50%;
 }
-
+li {
+    list-style-type: none;
+}
 #hero1 {
     animation-name: animation1;
     animation-duration: 5s;
