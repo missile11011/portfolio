@@ -15,8 +15,6 @@ This project was built with html and css mostly. And for most the design and css
 * [javascript](https://www.javascript.com)
 * html and css
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
